@@ -1,3 +1,4 @@
+require "pry"
 def using_include(array, element)
 
 end
@@ -7,7 +8,8 @@ def using_sort(array)
 end
 
 def using_reverse(array)
-
+  binding.pry
+  return array.reverse!
 end
 
 def using_first(array)
